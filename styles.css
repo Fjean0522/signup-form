@@ -82,15 +82,6 @@ body {
     justify-content: space-evenly;
 }
 
-/* ACCOUNT ACCESS */
-.acc-access {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .create {
     height: 30px;
     width: 145px;
@@ -107,6 +98,16 @@ body {
 .create:active {
     background-color: rgb(238, 203, 3);
     color: black;
+}
+
+
+/* ACCOUNT ACCESS */
+.acc-access {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
