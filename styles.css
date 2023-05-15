@@ -37,7 +37,7 @@ body {
 .signup-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color:rgb(242, 243, 244);
     height: 100%;
     width: 100%;
@@ -60,7 +60,26 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
 }
 
 /* ACCOUNT ACCESS */
+.acc-access {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.acc-access button {
+    height: 30px;
+    width: 145px;
+    background-color: rgb(222, 190, 4);
+    border-radius: 5px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(211, 180, 5);
+}
