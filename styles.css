@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    /* border: 1px solid; */
 }
 
 .signup-page-container {
@@ -31,6 +30,27 @@ body {
 .logo-container img {
     height: 200px;
     width: 250px;
+}
+
+/* HEADER INFO */
+.p-inline {
+    display: flex;
+    font-size: 22px;
+}
+
+.p-color {
+    color: rgb(222, 190, 4);
+    margin-right: 4px;
+    font-weight: bold;
+}
+
+.header-info {
+    padding: 6px;
+}
+
+.p2 {
+    font-size: 20px;
+    margin-top: 0;
 }
 
 /* SIGNUP FORM */
