@@ -23,8 +23,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 130px;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.2;
+    background-color: rgb(35, 36, 30);
+    opacity: 0.4;
 }
 
 .logo-container img {
