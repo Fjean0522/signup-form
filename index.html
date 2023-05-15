@@ -24,31 +24,31 @@
                    one thing is certain: By joining <b>Beyond Fit</b>, you get the <em>best ally for your training routine!</em>
                 </p>
             </div>
-            <div class="form-container">
+            <form class="form-container" action="">
                 <div class="left-side">
                     <label for="fname">FIRST NAME</label>
-                    <input type="text" id="fname" name="fname">
+                    <input type="text" id="fname" name="fname" required>
                 
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">
+                    <label for="user_email">EMAIL</label>
+                    <input type="email" id="user_email" name="user_email" required>
 
-                    <label for="passwd">PASSWORD</label>
-                    <input type="password" id="passwd" name="passwd">
+                    <label for="user_passwd">PASSWORD</label>
+                    <input type="password" id="user_passwd" name="user_passwd" required>
                 </div>
 
                 <div class="right-side">
                     <label for="lname">LAST NAME</label>
-                    <input type="text" id="lname" name="lname">
+                    <input type="text" id="lname" name="lname" required>
 
-                    <label for="number">PHONE NUMBER</label>
-                    <input type="tel" id="number" name="number">
+                    <label for="user_telNumber">PHONE NUMBER</label>
+                    <input type="tel" id="user_telNumber" name="user_telNumber" required>
 
-                    <label for="conf-paswd">CONFIRM PASSWORD</label>
-                    <input type="password" id="conf-paswd" name="conf-paswd">
+                    <label for="confirm_passwd">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm_passwd" name="confirm_passwd" required>
                 </div>
-            </div>
+            </form>
             <div class="acc-access">
-                <button class="create" type="button">Create Account</button>
+                <button class="create" type="submit">Create Account</button>
                 <p>Already have an account?<a href="#"> Log in</a></p>
             </div>
         </div>
