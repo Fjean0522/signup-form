@@ -44,8 +44,23 @@ body {
 }
 
 .form-container {
+   display: flex;
+   justify-content: space-evenly;
    background-color: white;
    height: 270px; 
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 /* ACCOUNT ACCESS */
