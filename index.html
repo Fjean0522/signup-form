@@ -33,10 +33,11 @@
                     <input type="email" placeholder="myemail@example.com" id="user_email" name="user_email" required>
 
                     <label for="user_passwd">PASSWORD</label>
-                    <input type="password" placeholder="mypassword123$" id="user_passwd" name="user_passwd" minlength="8"
-                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                    <input type="password" placeholder="Password" id="user_passwd" name="user_passwd" minlength="8" 
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                         title="Must contain at least one number and one uppercase and lowercase letter, 
-                        and at least 8 or more characters" required>
+                        and at least 8 or more characters" 
+                        oninput="form.confirm_passwd.pattern = escapeRegExp(this.value)" required>
                 </div>
 
                 <div class="right-side">
@@ -48,10 +49,9 @@
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="xxx-xxx-xxxx" required>
 
                     <label for="confirm_passwd">CONFIRM PASSWORD</label>
-                    <input type="password" placeholder="mypassword123" id="confirm_passwd" name="confirm_passwd" minlength="8" 
-                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
-                        title="Must contain at least one number and one uppercase and lowercase letter, 
-                        and at least 8 or more characters" required>
+                    <input type="password" placeholder="Password" id="confirm_passwd" name="confirm_passwd"
+                        pattern=""
+                        title="Passwords must match" required>
                 </div>
             </form>
             <div class="acc-access">
@@ -60,5 +60,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
