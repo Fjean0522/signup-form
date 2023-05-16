@@ -117,7 +117,7 @@ a {
 
 /* INPUT VALIDATION */
 :root {
-    --color-invalid: 1px solid red;
+    --color-invalid: 2px solid red;
 }  
 
 input:not(:focus):not(:placeholder-shown):invalid {
