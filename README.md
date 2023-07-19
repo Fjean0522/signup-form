@@ -1,5 +1,5 @@
 # signup-form
-Beyond Fit Gym Membership signup page.
+Membership signup page for Beyond Fit Gym.
 
 # Live Site
 https://fjean0522.github.io/signup-form/
