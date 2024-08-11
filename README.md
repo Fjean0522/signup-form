@@ -5,4 +5,4 @@ Membership signup page for Beyond Fit Gym.
 Fjean0522
 
 ## Lite Site
-https://beyond-fit.netlify.app/
+https://fjean0522.github.io/signup-form/
